@@ -7,13 +7,26 @@ This project is a Flask-based stock trading web application developed as part of
 - **User accounts**
   - Registration and login with server-side validation
   - Passwords hashed using `werkzeug.security` (no plain-text storage)
+  
+![](images/registrationPage.png)
+
 - **Stock trading**
   - Quote view to check prices by symbol (e.g. AMZN, MSFT, GOOGL)
   - Buy and sell shares with balance and position checks
   - Portfolio view showing holdings, current prices, and total value in USD
+  
+![](images/quoted.png) 
+
+![](images/buyingOption.png)
+
+![](images/buyConfirmed.png)
+
 - **History**
   - Complete ledger of all transactions (symbol, shares, price in $, timestamp)
   - Negative share counts used to represent sales
+  
+![](images/history.png)
+
 - **UI**
   - Consistent layout with a footer on each page
   - Footer includes an HTML validator link/button to check markup validity
@@ -21,6 +34,8 @@ This project is a Flask-based stock trading web application developed as part of
 ## Manual Testing
 
 The application was manually tested from the user’s perspective, including both expected and unexpected usage:
+
+![](images/InvalidUsername.png)
 
 ### Expected usage
 
