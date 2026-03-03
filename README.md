@@ -2,6 +2,12 @@
 
 This project is a Flask-based stock trading web application developed as part of a university module. It allows users to register, log in, look up stock quotes, buy and sell shares, and review their full transaction history. All monetary values are displayed in **US dollars ($)**, and user passwords are securely hashed with Werkzeug.
 
+If you’re not quite sure what it means to buy and sell stocks (i.e., shares of a company), head here [here](https://www.investopedia.com/articles/basics/06/invest1000.asp) for a tutorial.
+
+Implemented C$50 Finance, a web app via which you can manage portfolios of stocks. Not only will this tool allow you to check real stocks’ prices and portfolios’ values, it will also let you buy (okay, “buy”) and sell (okay, “sell”) stocks by querying for stocks’ prices.
+
+Indeed, there are tools [IEX](https://www.iexexchange.io/) that let you download stock quotes via their API (application programming interface) using URLs like . Notice how Netflix’s symbol (NFLX) is embedded in this URL; that’s how IEX knows whose data to return. That link won’t actually return any data because IEX requires you to use an API key, but if it did, you’d see a response in JSON (JavaScript Object Notation) format.
+
 ## Features
 
 - **User accounts**
